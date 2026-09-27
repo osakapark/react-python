@@ -1,1 +1,18 @@
+##1. VSCODE
+```
 Black Formatter
+```
+
+##2.install
+```
+python -m venv venv
+venv\Scripts\activate.bat
+
+pip install fastapi
+pip install uvicorn
+pip install sqlalchemy
+pip install sqlalchemy[asyncio]
+pip install pydantic-settings
+pip install aiosqlite
+
+```
